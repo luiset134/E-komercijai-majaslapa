@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Galvenā lapa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f9;
+    }
+
+    /* Augšējās izvēlnes josla */
+    .augsa {
+      background-color: #ffffff;
+      padding: 15px 30px;
+      border-bottom: 2px solid #005f73;
+    }
+
+    details {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    summary {
+      font-size: 16px;
+      font-weight: bold;
+      color: #005f73;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Zils atveramais panelis ar saitēm */
+    .apaksa-panelis {
+      position: absolute;
+      background-color: #005f73;
+      padding: 12px 20px;
+      border-radius: 6px;
+      margin-top: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .apaksa-panelis a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 6px 0;
+      font-size: 15px;
+    }
+
+    .apaksa-panelis a:hover {
+      text-decoration: underline;
+    }
+
+    /* Pamatteksta bloks */
+    .saturs {
+      max-width: 650px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      color: #005f73;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Augšējā izvēlne ar saitēm -->
+  <div class="augsa">
+    <details>
+      <summary>PAR MANI</summary>
+      <div class="apaksa-panelis">
+        <a href="izglitiba.html">Mana izglītība</a>
+        <a href="hobiji.html">Mani hobiji</a>
+      </div>
+    </details>
+  </div>
+
+  <div class="saturs">
+    <h1>Sveicināti manā mājas lapā!</h1>
+    <p>Prieks iepazīties.</p>
+  </div>
+
+</body>
+</html>
